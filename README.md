@@ -1,2 +1,2 @@
-# CSS-Pool
-For css practice
+# HTML and CSS
+For showing the HTML and CSS
