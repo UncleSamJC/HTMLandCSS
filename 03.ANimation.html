@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ani</title>
+    <style>
+        @keyframes dz {
+            0% {
+                width: 100px;
+                height: 100px;
+                background-color: darkcyan;
+            }
+            100% {
+                width: 200px;
+                height: 200px;
+                background-color: fuchsia;
+            }
+        }
+        div {
+            animation-name: dz;
+            animation-duration: 1s;
+            animation-delay: 2s;
+            animation-iteration-count: 2;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+        }
+
+        .two {
+  width: 0px;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: aquamarine;
+  animation: move 4s steps(24) forwards;
+}
+
+@keyframes move {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 480px;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="one">11</div>
+    <div class="two">22</div>
+</body>
+</html>
